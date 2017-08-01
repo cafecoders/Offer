@@ -2,6 +2,12 @@ package BSTtoList;
 
 import TreeNode.TreeNode;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * Created by Administrator on 2017/7/25 0025.
  */
@@ -28,5 +34,13 @@ public class Solution {
             right.left = head;
         }
         return left != null ? left : head;
+
+        //HashMap<Integer, Integer>
+        //Hashtable<Integer, Integer>
+        //HashSet<Integer>
+        //ConcurrentHashMap<Integer, Integer>
+        //ArrayList<Integer>
+        //String str = "";
+        //str.contains()
     }
 }
