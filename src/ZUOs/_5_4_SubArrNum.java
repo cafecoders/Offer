@@ -73,4 +73,6 @@ public class _5_4_SubArrNum {
         System.out.println(getNum(arr, num));
 
     }
+
+
 }
