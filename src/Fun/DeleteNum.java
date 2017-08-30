@@ -1,8 +1,6 @@
 package Fun;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by Administrator on 2017/8/23 0023.
@@ -58,6 +56,10 @@ public class DeleteNum {
             }
             System.out.println(sb.toString().substring(0, str.length() - k));
 
+        HashMap<String, String> map;
+        ArrayList arrayList;
+        LinkedList linkedList;
+        Hashtable hashtable;
 
     }
 }
