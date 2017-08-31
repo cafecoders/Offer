@@ -1,5 +1,6 @@
 package HUAWEI;
 
+import java.util.HashMap;
 import java.util.Scanner;
 import java.util.TreeSet;
 
@@ -18,5 +19,6 @@ public class _3UniqueAndSort {
         for(Integer i : set){
             System.out.println(i);
         }
+
     }
 }
